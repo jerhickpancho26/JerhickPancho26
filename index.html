@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerhick Pancho | Portfolio</title>
+
+<!-- Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+<div class="animated-bg">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+</div>
+ 
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <div class="nav-container">
+    
+    <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      PORTFOLIO
+    </div>
+
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- THEME TOGGLE -->
+<label class="theme-switch">
+  <input type="checkbox" id="theme-toggle">
+  <span class="theme-slider">
+    <i class="fas fa-sun sun"></i>
+    <i class="fas fa-moon moon"></i>
+  </span>
+</label>
+
+    <button id="mobile-menu-btn" class="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <div id="mobile-menu" class="mobile-menu hidden">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-container">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-text">
+      <h1><span id="typing"></span></h1>
+
+    
+      <h2 class="hero-buttons">
+        BACHELOR OF SCIENCE IN COMPUTER SCIENCE STUDENT
+      </h2>
+
+      <h5 class="description">
+        Philippians 4:13 
+        <dd>"I can do all things through Christ Who strengthens me"</dd>
+      </h5>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="hero-buttons">View Projects</a>
+        <a href="#contact" class="hero-buttons">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+     
+<div class="hero-image">
+
+    <div class="profile-wrapper">
+      <span class="profile-name"><h1>JERHICK PANCHO</h1></span>
+      <img src="jerhick.jpg"
+         class="profile"
+         loading="lazy"
+         alt="Jerhick Pancho"
+         onclick="openImage(this.src)">
+    </div>
+
+</div>
+      
+     <div class="social-icons">
+            <p class="subtitle">
+        SOCIAL MEDIA
+      </p>
+
+           <a href="https://www.facebook.com/jerhickbesas.panchoii"><i class="fab fa-facebook"></i></a>
+           <a href="https://www.instagram.com/lufiboyy?igsh=MThucnlqbHNkcWdwbQ=="><i class="fab fa-instagram"></i></a>
+           <a href="https://www.tiktok.com/@jerhick?_r=1&_t=ZS-94R8KEFx5yX"><i class="fab fa-tiktok"></i></a>
+     </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image reveal">
+        <img src="pancho.jpg" loading="lazy" alt="Workspace"
+        onclick="openImage(this.src)">
+        <div class="social-icons">
+        <a href="https://www.facebook.com/jerhickbesas.panchoii"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/dashboard"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/lufiboyy?igsh=MThucnlqbHNkcWdwbQ=="><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@jerhick?_r=1&_t=ZS-94R8KEFx5yX"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.x.com/Lufiboyy26"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      
+
+      <div class="about-content reveal">
+        <h2>Designing with passion, coding with precision.</h2>
+        <p>I am a student who loves learning new things, especially about computers and games.
+        I believe in hard work and patience. My dream is to become successful someday and
+        create something meaningful. I continue to grow and improve every day..</p>
+
+        <div class="skills">
+          <div class="skill">
+            <span>HTML</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:90%"></div>
+            </div>
+          </div>
+        </div>
+         <div class="skills">
+          <div class="skill">
+            <span>CSS</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:70%"></div>
+            </div>
+          </div>
+        </div>
+         <div class="skills">
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:50%"></div>
+            </div>
+          </div>
+        </div>
+         <div class="skills">
+          <div class="skill">
+            <span>C/C++</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:30%"></div>
+            </div>
+          </div>
+        </div>
+         <div class="skills">
+          <div class="skill">
+            <span>Python</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:40%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2>Featured Projects</h2>
+      <p>A selection of my recent work</p>
+    </div>
+
+<div class="hero-buttons">
+   <div>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="diorama">Diorama</button>
+        <button class="filter-btn" data-filter="embedded">Embedded System</button>
+        <button class="filter-btn" data-filter="Fundamentals of Programming">Fundamentals of Programming</button>
+        <button class="filter-btn" data-filter="Intermediate Programming">Intermediate Programming</button>
+        <button class="filter-btn" data-filter="PalayScan">Entrepreneurial Mind</button>
+   </div>
+</div>
+    <div class="projects-grid">
+
+      <!-- IMAGE PROJECT -->
+      <div class="project-card reveal" data-category="diorama">
+        <div class="project-image">
+          <img src="diorama.jpg" loading="lazy" alt="Diorama"
+               onclick="openImage(this.src)">
+        </div>
+        <div class="project-info">
+          <h3>Diorama</h3>
+          <p>This is Our Diorama in Comtemporary world.We Presented it during the Bahandi Festival and got 3rdplace on it .</p>
+        </div>
+      </div>
+
+      <!-- IMAGE PROJECT -->
+      <div class="project-card reveal" data-category="embedded">
+        <div class="project-image">
+          <img src="robot.jpg" loading="lazy" alt="Embedded System"
+               onclick="openImage(this.src)">
+        </div>
+        <div class="project-info">
+          <h3>Robot</h3>
+          <p>This is our Project in Embedded System.it is a 2WD CAR KIT with Arduino and sensors .</p>
+        </div>
+      </div>
+
+      <!-- IMAGE PROJECT -->
+      <div class="project-card reveal" data-category="Fundamentals of Programming">
+        <div class="project-image">
+          <img src="presentation.jpg" loading="lazy" alt="Presentation"
+               onclick="openImage(this.src)">
+        </div>
+        <div class="project-info">
+          <h3>Fundamentals Of Programming</h3>
+          <p>This was the Presentaton of our Project the "Ticketing Booth System " and Debugging.</p>
+        </div>
+      </div>
+
+      <!-- IMAGE PROJECT -->
+      <div class="project-card reveal" data-category="Intermediate Programming">
+        <div class="project-image">
+          <img src="palasyo.jpg" loading="lazy" alt="Palasyo"
+               onclick="openImage(this.src)">
+        </div>
+        <div class="project-info">
+          <h3>INTERMEDIATE PROGRAMMING</h3>
+          <p>This was our presentation and debugging in Intermediate Programming.</p>
+        </div>
+      </div>
+
+      <!-- VIDEO PROJECT -->
+      <div class="project-card reveal" data-category="PalayScan">
+        <div class="project-image">
+          <video onclick="openVideo('Palay.mp4')" preload="metadata">
+            <source src="Palay.mp4" type="video/mp4">
+          </video>
+        </div>
+        
+        <div class="project-info">
+          <h3>Video Pitch</h3>
+          <p>This is our Video pitch Titled "PALAYSCAN" It aims to scan palay easily to determine the condition and when to harvest.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+
+      
+    <!-- Contact Info -->
+    <div class="hero-buttons">
+      <h1>Let's Work Together</h1>
+
+     <p class>
+     If you have a project, idea, or opportunity,
+     feel free to contact me anytime.
+     </p>
+      <p><strong>Email:</strong> jerhickpancho26@gmail.com</p>
+      <p><strong>Phone:</strong> 09512502044</p>
+      <p><strong>GitHub:</strong> github.com/jerhick</p>
+    </div>
+
+    <div class="contact-form-wrapper reveal">
+      <form id="contact-form">
+        <input type="text" required placeholder="Name">
+        <input type="email" required placeholder="Email">
+        <textarea rows="4" required placeholder="Message"></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+
+    <label>
+
+      <div class="social-icons">
+         <div>
+          <a href="https://www.facebook.com/jerhickbesas.panchoii"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/dashboard"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/lufiboyy?igsh=MThucnlqbHNkcWdwbQ=="><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@jerhick?_r=1&_t=ZS-94R8KEFx5yX"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+         </div>
+      </div>
+
+    </label>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Jerhick Pancho</p>
+  </div>
+</footer>
+
+
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img id="modalImg" class="modal-content">
+  <video id="modalVideo" class="modal-content" controls></video>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
